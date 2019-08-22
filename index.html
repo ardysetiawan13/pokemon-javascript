@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pokemon</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="assets/plugins/bootstrap.min.css" rel="stylesheet">
+
+	<link href="assets/css/main.min.css??v=3" rel="stylesheet">
+	<script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/app.js?v=2"></script>
+</head>
+<body>
+	<div class="ground">
+		<div class="left-side">
+			<button type="button" class="btn-expand" id="btn-expand-left" data-target="left">></button>
+			<div class="title">Wild Pokemon</div>
+			<div class="pokemon-list" id="left-pokemon-list">
+
+			</div>
+			<div class="navigation">
+				<button type="button" id="btn-prev-left"> < </button>
+				<button type="button" id="btn-next-left"> > </button>
+			</div>
+		</div>
+
+		<div class="right-side hide">
+			<button type="button" class="btn-expand" id="btn-expand-right" data-target="right">></button>
+			<div class="title">My Pokemon</div>
+			<div class="pokemon-list" id="right-pokemon-list">
+
+			</div>
+		</div>
+		
+		<div class="main-ground">
+			<div>
+				<div class="image">
+					<img id="selected-image" src="">
+				</div>
+				<div class="name" id="selected-name"></div>
+				<div class="d-flex justify-content-end align-items-center px-3">
+					<span id="lblDesc" class="mr-auto"></span>
+					<button class="poke-ball" type="button" id="btnCatch" style="display: none"> o </button>
+					<button class="poke-ball" type="button" id="btnRelease" style="display: none"> o </button>
+				</div>
+				<div class="section-title">Types</div>
+				<div class="types-container">
+				
+				</div>
+				
+				<div class="section-title">Moves</div>
+				<div class="moves-container">
+					<table id="selected-moves">
+						<thead>
+							<tr>
+								<th>No</th>
+								<th>Moves</th>
+							</tr>
+						</thead>
+						<tbody>
+							
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="modalName" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+		  		<div class="modal-header text-center">
+		    		<span class="modal-title">Give a name</span>
+		  		</div>
+		  		<div class="modal-body">
+		    		<input type="text" class="form-control" id="modalName-txtName">
+		  		</div>
+		  		<div class="modal-footer py-2 justify-content-start">
+		    		<button type="button" class="btn btn-primary" id="modalName-btnSave">Save</button>
+		  		</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

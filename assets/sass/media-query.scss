@@ -1,0 +1,92 @@
+@media only screen and (min-width: 600px) {
+	body{
+		margin-left: 14vw; 
+	}
+	.left-side, .right-side{
+		width: 14vw !important;
+	}
+	.left-side.hide{
+		left: -14vw !important;
+	}
+	.right-side.hide{
+		right: -14vw !important;
+	}
+	.main-ground{
+		width: 600px !important;
+	}
+}
+@media only screen and (min-device-width : 600px){
+	body{
+		margin-left: 14vw; 
+	}
+	.left-side, .right-side{
+		width: 14vw !important;
+	}
+	.left-side.hide{
+		left: -14vw !important;
+	}
+	.right-side.hide{
+		right: -14vw !important;
+	}
+	.main-ground{
+		width: 600px !important;
+	}
+}
+
+@media only screen and (min-width: 992.4px) {
+	body{
+		margin-left: 10vw; 
+	}
+	.left-side, .right-side{
+		width: 10vw !important;
+	}
+	.left-side.hide{
+		left: -10vw !important;
+	}
+	.right-side.hide{
+		right: -10vw !important;
+	}
+}
+@media only screen and (min-device-width: 992.4px) {
+	body{
+		margin-left: 10vw; 
+	}
+	.left-side, .right-side{
+		width: 10vw !important;
+	}
+	.left-side.hide{
+		left: -10vw !important;
+	}
+	.right-side.hide{
+		right: -10vw !important;
+	}
+}
+
+@media only screen and (min-width: 1200.4px) {
+	body{
+		margin-left: 8vw; 
+	}
+	.left-side, .right-side{
+		width: 8vw !important;
+	}
+	.left-side.hide{
+		left: -8vw !important;
+	}
+	.right-side.hide{
+		right: -8vw !important;
+	}
+}
+@media only screen and (min-device-width: 1200.4px) {
+	body{
+		margin-left: 8vw; 
+	}
+	.left-side, .right-side{
+		width: 8vw !important;
+	}
+	.left-side.hide{
+		left: -8vw !important;
+	}
+	.right-side.hide{
+		right: -8vw !important;
+	}
+}
